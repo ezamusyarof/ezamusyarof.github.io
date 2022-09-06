@@ -1,0 +1,90 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 100px 20% 50px 20%;
+    color: rgb(186, 186, 209);
+    background-color: #212121;
+}
+
+h1 {
+    color: white;
+}
+
+hr {
+    opacity: 98%;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    align-content: center;
+}
+
+.profile {
+    margin-top: 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.1));
+}
+
+.profil {
+    margin: -30px;
+    background-color: rgb(240,248,255,0.1);
+}
+
+.profil img {
+    margin: 25px 20px 20px 20px;
+    filter: blur(1px);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.profil img:hover {
+    filter: blur(0px);
+}
+
+.profil table, tr, th {
+    margin: 50px 20px 50px 0px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.profil table caption {
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+
+.medsos {
+    margin-top: 55px;
+    display: block;
+    text-align: center;
+    height: 100px;
+}
+
+.medsos img {
+    width: 20px;
+}
+
+.tombol {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tombol a{
+    text-decoration: none;
+    background: #ffffff;
+    padding: 10px 40px;
+    color: #212121;
+    border-radius: 5px;
+}
+
+.tombol a:hover{
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.tombol hr {
+    margin: 15px 44%;
+}
+
