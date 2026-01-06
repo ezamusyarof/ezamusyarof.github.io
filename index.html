@@ -1,59 +1,1017 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Hi, I'm Eza Musyarof</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>SELAMAT DATANG SOB...</h1>
-    <p>Ini adalah web portofolio saya</p>
-    <hr>
-    <div class="profile">
-        <div class="profil">
-            <img src="foto.jpeg">
-            <table>
-                <caption>MY PROFILE</caption>
-                <caption>-----------------</caption>
-                <tr>
-                    <th>Nama</th>
-                    <th>:</th>
-                    <th>Eza Musyarof</th>
-                </tr>
-                <tr>
-                    <th>Jurusan</th>
-                    <th>:</th>
-                    <th>TIK</th>
-                </tr>
-                <tr>
-                    <th>Prodi</th>
-                    <th>:</th>
-                    <th>TMJ</th>
-                </tr>
-                <tr>
-                    <th>Kelas</th>
-                    <th>:</th>
-                    <th>TMJ-3</th>
-                </tr>
-            </table>
+
+<section class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-md-1"></div>
+
+      <!-- Profile Image -->
+      <div class="col-md-3 text-center text-md-start mb-4 mb-md-0">
+        <div class="profile-wrapper">
+          <img src="assets/profile.jpg"
+               alt="Profile"
+               class="profile-img">
         </div>
-        <div class="medsos">
-            <p>Hubungi Saya disini:</p>
-            <a href="https://instagram.com/eza.msrf"><img src="instagram.png"></a>
-            <a href="https://linkedin.com/in/eza-musyarof-b30b33227"><img src="linkedin.png"></a>
-            <a href="https://github.com/ezamusyarof"><img src="github.png"></a>
-            <a href="https://eza.musyarof.tik21@mhsw.pnj.ac.id" onmouseover="alert('Punten, ini email saya : \neza.musyarof.tik21@mhsw.pnj.ac.id \n\nMakasih')"><img src="email.png"></a>
-            <div class="grad"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-md-7">
+        <!-- <small class="role">SOFTWARE DEVELOPER</small> -->
+        <h1 class="name">Hi, I'm Eza Musyarof</h1>
+
+        <p class="description">
+          Bachelor's graduate in Informatics and Computer Engineering with
+          experience in automation, backend development, networking, and
+          cybersecurity. Hands-on experience in database design, software development,
+          and system deployment  gained through projects and professional certifications.
+        </p>
+
+        <div class="action mt-4 d-flex align-items-center gap-2">
+          <a href="assets/CV Eza Musyarof.pdf" target="_blank" class="btn btn-light btn-resume">
+            <i class="bi bi-file-earmark-text-fill"></i>
+            View Resume
+          </a>
+
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/ezamusyarof"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/ezamusyarof"><i class="fab fa-github"></i></a>
+            <a href="mailto:ezamusyarof@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
         </div>
+      </div>
+      
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</section>
+<!-- Skills Section -->
+<section class="skills-section d-flex align-items-center">
+  <div class="container text-center">
+    <!-- <small class="skills-subtitle">EXPERTISE</small> -->
+    <h2 class="skills-title">Skills</h2>
+
+    <div class="skills-wrapper mt-4 d-flex flex-wrap justify-content-center gap-3 mb-5">
+      <span class="skill-pill">Networking</span>
+      <span class="skill-pill">Security</span>
+      <span class="skill-pill">REST API</span>
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">Flask</span>
+      <span class="skill-pill">Automation</span>
+      <span class="skill-pill">Web Development</span>
+      <span class="skill-pill">Backend</span>
+      <span class="skill-pill">Deployment</span>
+      <span class="skill-pill">UiPath</span>
+      <span class="skill-pill">HTML/CSS</span>
+      <span class="skill-pill">JavaScript</span>
+      <span class="skill-pill">PHP</span>
+      <span class="skill-pill">Git & GitHub</span>
+      <span class="skill-pill">Google Cloud</span>
+      <span class="skill-pill">Postman</span>
+      <span class="skill-pill">MySQL</span>
+      <span class="skill-pill">Robocorp</span>
+      <span class="skill-pill">Cisco</span>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- Title -->
+      <div class="col-12 mb-5 text-center">
+        <!-- <small class="section-number">02.</small> -->
+        <h2 class="experience-title">Experiences</h2>
+      </div>
+
+      <!-- Menu + Content -->
+      <div class="col-md-1"></div>
+      <div class="col-md-4 mb-5">
+        <div class="experience-menu">
+          <button class="exp-btn active" data-target="exp1">Kementerian Transmigrasi</button>
+          <button class="exp-btn" data-target="exp2">Thesis</button>
+          <button class="exp-btn" data-target="exp3">Fima Internasional</button>
+          <button class="exp-btn" data-target="exp4">Bangkit Academy</button>
+          <button class="exp-btn" data-target="exp5">Computer Students Club</button>
+          <button class="exp-btn" data-target="exp6">Campus Projects</button>
+        </div>
+      </div>
+      
+      <div class="col-md-7">
+        <div class="experience-content">
+
+          <!-- Experience 1 -->
+          <div class="exp-content active" id="exp1">
+            <h3>Technical Support <span>• Ekspedisi Patriot</span> <a href="https://drive.google.com/file/d/1XJ3FwGeKo9-_B4TiS6tczysPO32elY3u/view?usp=drive_link" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Aug – Dec 2025</p>
+            <ul>
+              <li>Installed internet networks using Starlink and network routers.</li>
+              <li>Prepared and ensured the readiness of all IT equipment for each event.</li>
+              <li>Provided technical support and basic troubleshooting for devices and network connections.</li>
+              <li>Documented activities in the form of photos and videos.</li>
+              <li>Designed and published documentation content on official social media platforms.</li>
+            </ul>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="exp-content" id="exp2">
+            <h3>System Engineer <span>• Smart Monitoring Classroom</span> <a href="https://repository.pnj.ac.id/id/eprint/30164/" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Jan – Jul 2025</p>
+            <ul>
+              <li>Designed and developed IoT-based devices for monitoring classroom.</li>
+              <li>Developed application code for embedded devices.</li>
+              <li>Built backend servers and developed REST APIs for communication between devices and the server.</li>
+              <li>Deployed the system and installed devices in the classroom environment.</li>
+              <li>Tested devices, system performance, and data communication to ensure reliability.</li>
+            </ul>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="exp-content" id="exp3">
+            <h3>RPA Developer <span>• Fista Automate</span> <a href="https://drive.google.com/file/d/1iW8GbiLhaujQg7prUEyyqUrnD0ACZtn1/view?usp=drive_link" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Aug – Dec 2024</p>
+            <ul>
+              <li>Designed and developed automation systems using Robotic Process Automation (RPA) technology.</li>
+              <li>Built a user-friendly website interface and integrated it with the system using APIs.</li>
+              <li>Managed system deployment to the production environment.</li>
+              <li>Conducted system testing and performance optimization to ensure application stability.</li>
+            </ul>
+          </div>
+
+          <!-- Experience 4 -->
+          <div class="exp-content" id="exp4">
+            <h3>Cloud Engineer <span>• Tourify</span> <a href="https://github.com/Tourify-Capstone" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Dec 2023 - Jan 2024</p>
+            <ul>
+              <li>Responsible for setting up and managing the cloud environment using Google Cloud Platform.</li>
+              <li>Deployed backend services and machine learning models to the cloud.</li>
+              <li>Developed and managed REST APIs used by the Tourify application.</li>
+              <li>Ensured smooth integration between backend, machine learning, and the application.</li>
+            </ul>
+            <br>
+            <h3>Cohort of Cloud Computing <a href="https://drive.google.com/file/d/1cheuAqhPjBy1upLZMJBLYBlknp4eW1yc/view?usp=drive_link" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Aug - Dec 2023</p>
+            <ul>
+              <li>Learned cloud engineering concepts through intensive courses and training.</li>
+              <li>Designed and implemented databases and APIs for cloud-based applications.</li>
+              <li>Configured, deployed, and monitored applications in the Google Cloud environment.</li>
+            </ul>
+          </div>
+
+          <!-- Experience 5 -->
+          <div class="exp-content" id="exp5">
+            <h3>Mentor of Cyber Security <a href="https://drive.google.com/file/d/1efSVgcyfkZwnOIlgsUU4ti9RJeZGEzC6/view?usp=drive_link" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Sept 2022 - Aug 2023</p>
+            <ul>
+              <li>Planned and delivered cybersecurity lessons to approximately 30 members.</li>
+              <li>Led hands-on lab sessions to provide practical cybersecurity experience.</li>
+              <li>Provided real-world security solutions and assigned tasks to improve members’ technical skills.</li>
+              <li>Guided members in understanding both basic and applied cybersecurity concepts.</li>
+            </ul>
+            <br>
+            <h3>Student of Cyber Security <a href="https://drive.google.com/file/d/1lEhXRmPFq_2jbGeSK0oUTYLU5z8h6xa-/view?usp=drive_link" target="_blank" class="cert-link"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+            <p class="exp-date">Sept 2021 - Aug 2022</p>
+            <ul>
+              <li>Learned the fundamentals of computer networking and cybersecurity.</li>
+              <li>Participated in hands-on labs related to system and network security.</li>
+            </ul>
+          </div>
+
+          <!-- Experience 6 -->
+          <div class="exp-content" id="exp6">
+            <h3>Backend Developer <span>• Bipol Tracker</span></h3>
+            <p class="exp-date">Dec 2023 - Jan 2024</p>
+            <ul>
+              <li>Designed and implemented a database using SQL.</li>
+              <li>Developed REST APIs using Python for mobile applications and web dashboards.</li>
+              <li>Performed API testing and system integration.</li>
+            </ul>
+            <br>
+            <h3>Software Engineer <span>• Smart Door Lock</span></h3>
+            <p class="exp-date">Aug - Dec 2023</p>
+            <ul>
+              <li>Developed device and server-side code using Python.</li>
+              <li>Conducted device testing to ensure system functionality.</li>
+            </ul>
+            <h3>Software Engineer <span>• Smart Trash Bin</span></h3>
+            <p class="exp-date">Aug - Dec 2023</p>
+            <ul>
+              <li>Developed device and server-side code using C#.</li>
+              <li>Tested device functionality and system integration..</li>
+            </ul>
+            <h3>Fullstack Developer <span>• Admin Web Dashboard</span></h3>
+            <p class="exp-date">Aug - Dec 2023</p>
+            <ul>
+              <li>Developed website interfaces using HTML, CSS, and JavaScript.</li>
+              <li>Managed data using MySQL with full CRUD operations.</li>
+              <li>Developed backend services using Python.</li>
+              <li>Tested the application to ensure functionality and system stability.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section class="certifications-section">
+  <div class="container text-center">
+
+    <!-- <small class="cert-subtitle">CREDENTIALS</small> -->
+    <h2 class="cert-title">Certifications</h2>
+
+    <div class="row mt-5 g-4">
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>SOC Essentials</h5>
+          <p class="issuer"><i class="bi bi-building"></i> EC-Council</p>
+          <div class="cert-footer">
+            <span>July 2025</span>
+            <a href="https://drive.google.com/file/d/1tY4bxqPEw333TVkCVHyIcchvR7_jG0A9/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Junior Web Developer </h5>
+          <p class="issuer"><i class="bi bi-building"></i> Badan Nasional Sertifikasi Profesi</p>
+          <div class="cert-footer">
+            <span>September 2023</span>
+            <a href="https://drive.google.com/file/d/1P9TFMljeSL_7GAGzM8yvSEBInb4OTYKB/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Junior Network Administrator</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Badan Nasional Sertifikasi Profesi</p>
+          <div class="cert-footer">
+            <span>October 2022</span>
+            <a href="https://drive.google.com/file/d/121AdjwFf-cRuNlUn5bm63xM3rI9Vmp2E/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>UiPath Academy Automation Explorer Training</h5>
+          <p class="issuer"><i class="bi bi-building"></i> UiPath Academy</p>
+          <div class="cert-footer">
+            <span>November 2025</span>
+            <a href="https://credentials.uipath.com/17a751f9-6406-4109-8228-aa2666b41b5b" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Javascript Intermediate</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Sololearn</p>
+          <div class="cert-footer">
+            <span>June 2023</span>
+            <a href="https://drive.google.com/file/d/1MaQXxLKHI3Lpytg4EQHf5cpGNpFQunMm/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>24 Badges in Google Cloud from Google</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Google Cloud Platform</p>
+          <div class="cert-footer">
+            <span>October 2023</span>
+            <a href="https://www.skills.google/public_profiles/706e9c0c-4027-41e3-a105-9e0da4deae0a" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="tombol">
-        <a href="index.html">START</a>
-        <hr>
+    <div class="row g-4 mt-1 extra-cert d-none">
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Membuat Aplikasi Backend dengan Google Cloud</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Dicoding</p>
+          <div class="cert-footer">
+            <span>October 2023</span>
+            <a href="https://drive.google.com/file/d/1FuQrtIiElU5yf9mcbAoFX4usHUyokxHE/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Dasar Pemrograman untuk Pengembang Software</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Dicoding</p>
+          <div class="cert-footer">
+            <span>August 2023</span>
+            <a href="https://drive.google.com/file/d/1CRsdSfZ5LInXJTRUYgj77xYpLUOp0Opm/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>The Bit and Bytes of Computer Networking</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Coursera</p>
+          <div class="cert-footer">
+            <span>August 2023</span>
+            <a href="https://drive.google.com/file/d/1LO74IDvyC-_jdFhTHqow6F8dGYvZoB6J/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Junior Web Developer</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Digitalent Kominfo</p>
+          <div class="cert-footer">
+            <span>July 2023</span>
+            <a href="https://drive.google.com/file/d/1gjRKpx-N5XUQnM1QZmWrVO5HkDLOFHxY/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Junior Network Administrator</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Digitalent Kominfo</p>
+          <div class="cert-footer">
+            <span>September 2022</span>
+            <a href="https://drive.google.com/file/d/1s7qV_vUdWyg_WduZHLdiE1LiYO9tRl8h/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Linux Fundamental</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Aguna Course</p>
+          <div class="cert-footer">
+            <span>September 2022</span>
+            <a href="https://drive.google.com/file/d/1dzcbWFA55yLprowLHFlwKBF2J0sH4429/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <br><br>
+    <div class="row g-4 mt-1 extra-cert d-none">
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Virtual Machine Fundamental</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Digitalent Kominfo</p>
+          <div class="cert-footer">
+            <span>December 2022</span>
+            <a href="https://drive.google.com/file/d/1qm9drw-Lr6Io-QXu1K3OJ0qSwM2wc1kS/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Belajar Dasar Pemrograman Web</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Aguna Course</p>
+          <div class="cert-footer">
+            <span>September 2023</span>
+            <a href="https://drive.google.com/file/d/1KfHEqvooDCE0ZWdq7yOWokifiBoUQU3r/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Belajar Git dengan Github</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Digitalent Kominfo</p>
+          <div class="cert-footer">
+            <span>February 2022</span>
+            <a href="https://drive.google.com/file/d/1OAULjJ0cAm4yh1GKCKoYskaeiN-DwoqC/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Introduction to Information Security</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Cyber Academy</p>
+          <div class="cert-footer">
+            <span>August 2022</span>
+            <a href="https://drive.google.com/file/d/14RnuCUdTvMsmhtO6Ucwf96B6gZjspCsa/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>English Competency Test</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Politeknik Negeri Jakarta</p>
+          <div class="cert-footer">
+            <span>May 2025</span>
+            <a href="https://drive.google.com/file/d/1V9eq_-jcEoTj_kG_YNQCfTupL81JTnpZ/view?usp=sharing" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="cert-card">
+          <h5>Metaverse 101</h5>
+          <p class="issuer"><i class="bi bi-building"></i> Digitalent Kominfo</p>
+          <div class="cert-footer">
+            <span>May 2023</span>
+            <a href="https://drive.google.com/file/d/1vvpudTn8MxlZYA2jIVpjFRY3D7S9DMpe/view?usp=drive_link" target="_blank" class="cert-link">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <div class="text-center mt-5">
+    <button id="loadMoreBtnCert" class="btn btn-outline-light px-4 py-2">
+      More
+    </button>
+  </div>
+
+</section>
+
+<!-- Projects Section -->
+<section class="projects-section">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <!-- <small class="projects-subtitle">PORTFOLIO</small> -->
+      <h2 class="projects-title">Projects</h2>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/44.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Fista Automate</h4>
+              <div class="project-links">
+              </div>
+            </div>
+
+            <p class="project-company">PT Finusolprima Farma Internasional</p>
+
+            <div class="project-tags">
+              <span>Robocorp</span>
+              <span>CodeIgniter</span>
+              <span>Flask</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/45.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Tourify</h4>
+              <div class="project-links">
+                <a href="https://sites.google.com/view/tourify-api"target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+
+            <p class="project-company">Bangkit Academy</p>
+
+            <div class="project-tags">
+              <span>Node.js</span>
+              <span>API</span>
+              <span>SQL</span>
+              <span>Google Cloud</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/46.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Bipol Tracker</h4>
+              <div class="project-links">
+                <a href="https://github.com/Bipol-Tracker-PNJ" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://sites.google.com/mhsw.pnj.ac.id/bipol-tracker"target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+
+            <p class="project-company">Academic Project</p>
+
+            <div class="project-tags">
+              <span>Dashboard</span>
+              <span>Python</span>
+              <span>Flask API</span>
+              <span>SQL</span>
+              <!-- <span>Prometheus</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/43.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Smart Monitoring Classroom</h4>
+              <div class="project-links">
+                <a href="https://repository.pnj.ac.id/id/eprint/30164/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+
+            <p class="project-company">Thesis Project</p>
+
+            <div class="project-tags">
+              <span>IoT</span>
+              <span>RaspPi</span>
+              <span>Yolov8</span>
+              <span>Facenet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/47.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Smart Door Lock</h4>
+              <div class="project-links">
+              </div>
+            </div>
+
+            <p class="project-company">Academic Project</p>
+
+            <div class="project-tags">
+              <span>IoT</span>
+              <span>Web Dashboard</span>
+              <span>Python</span>
+              <span>RaspPi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/48.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Smart Trash Bin</h4>
+              <div class="project-links">
+              </div>
+            </div>
+
+            <p class="project-company">Academic Project</p>
+
+            <div class="project-tags">
+              <span>IoT</span>
+              <span>ESP32</span>
+              <span>Arduino</span>
+              <span>#C</span>
+              <!-- <span>Prometheus</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Extra Projects -->
+    <div class="row g-4 mt-1 extra-projects d-none">
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/48b.png" alt="Project">
+          </div>
+
+          <div class="project-content">
+            <div class="project-header">
+              <h4>SMK Negeri Wakanda</h4>
+              <div class="project-links">
+              </div>
+            </div>
+
+            <p class="project-company">Academic Project</p>
+
+            <div class="project-tags">
+              <span>Web Dashboard</span>
+              <span>FastAPI</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/52.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Kampus Tour</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/kampus-tour" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Academic Project</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/49.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Kr1pto</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/kr1pto" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Academic Project</p>
+            <div class="project-tags">
+              <span>Web</span>
+              <span>Python (Flask)</span>
+              <span>API</span>
+              <span>Cryptography</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/53a.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Web Profile Fikri</h4>
+              <div class="project-links">
+              </div>
+            </div>
+            <p class="project-company">UKM LDK Fikri PNJ</p>
+            <div class="project-tags">
+              <span>Web</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Deployment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/50.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Invoice OCR Automationm</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/InvoiceOCRAutomation" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>OCR (Tesseract)</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/51.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Share Quotes</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/share_quotes" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>Web</span>
+              <span>Python (Flask)</span>
+              <span>API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row g-4 mt-1 extra-projects d-none">
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/52b.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Jadwal Sholat</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/jadwal-sholat" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>Web</span>
+              <span>Python (Flask)</span>
+              <span>API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/53.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Ponka</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/ponka" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ezamusyarof.github.io/ponka" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>Javascript</span>
+              <span>Animation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/54.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>CardTwo</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/cardtwo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ezamusyarof.github.io/cardtwo"target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/55.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Match Surah</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/matchsurah" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ezamusyarof.github.io/matchsurah" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/56.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Tik-Tak-Toe</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/tik-tak-toe" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ezamusyarof.github.io/tik-tak-toe"target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/57.png">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h4>Puzzle Masbro</h4>
+              <div class="project-links">
+                <a href="https://github.com/ezamusyarof/masbro" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ezamusyarof.github.io/masbro" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <p class="project-company">Personal Project</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+
+  </div>
+  <div class="text-center mt-5">
+    <button id="loadMoreBtn" class="btn btn-outline-light px-4 py-2">
+      More
+    </button>
+  </div>
+
+</section>
+
+<!-- Tech Stack Section -->
+<section class="techstack-section">
+  <div class="container text-center">
+
+    <small class="techstack-subtitle">TECH STACK</small>
+
+    <div class="techstack-marquee">
+      <div class="techstack-track">
+
+        <!-- ITEM -->
+        <div class="tech-item"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+        <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML/CSS</span></div>
+        <div class="tech-item"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+        <div class="tech-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+        <div class="tech-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+        <div class="tech-item"><i class="fa-brands fa-google"></i><span>Google Cloud</span></div>
+        <!-- <div class="tech-item"><i class="fa-brands fa-docker"></i><span>Docker</span></div> -->
+        <div class="tech-item"><i class="fa-solid fa-robot"></i><span>UiPath</span></div>
+        <div class="tech-item"><i class="fa-solid fa-gear"></i><span>Robocorp</span></div>
+        <div class="tech-item"><i class="bi bi-filetype-py"></i><span>Python</span></div>
+        
+        <!-- DUPLICATE (WAJIB UNTUK LOOP) -->
+        <div class="tech-item"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+        <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML/CSS</span></div>
+        <div class="tech-item"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+        <div class="tech-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+        <div class="tech-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+        <div class="tech-item"><i class="fa-brands fa-google"></i><span>Google Cloud</span></div>
+        <!-- <div class="tech-item"><i class="fa-brands fa-docker"></i><span>Docker</span></div> -->
+        <div class="tech-item"><i class="fa-solid fa-robot"></i><span>UiPath</span></div>
+        <div class="tech-item"><i class="fa-solid fa-gear"></i><span>Robocorp</span></div>
+        <div class="tech-item"><i class="bi bi-filetype-py"></i><span>Python</span></div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <div class="container d-flex justify-content-center">
+
+    <div class="contact-card text-center">
+      <small class="contact-subtitle">GET IN TOUCH</small>
+      <h2 class="contact-title">Available for Work</h2>
+
+      <p class="contact-desc">
+        Open to new projects and opportunities.<br>
+        Let’s connect.
+      </p>
+
+      <a href="mailto:ezamusyarof06@gmail.com" class="contact-btn">
+        <i class="fa-regular fa-envelope"></i>
+        Contact Me
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-section">
+  <div class="container d-flex justify-content-between align-items-center">
+    <p>© 2026 Eza Musyarof. All rights reserved.</p>
+    <p class="footer-right">Built with passion & code.</p>
+  </div>
+</footer>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
